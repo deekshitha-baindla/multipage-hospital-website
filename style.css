@@ -1,0 +1,156 @@
+ *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+header{
+    background-color: rgba(54, 89, 104, 0.968);
+    padding:10px 40px;
+    position: fixed;
+    top:0;
+    width:100%;
+    padding:15px 40px;
+    z-index:1000;
+    }
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:10px;
+    color:white;
+    }
+nav a{
+    color:white;
+    text-decoration: none;
+    }
+a:hover{
+    color:black;
+    text-decoration: underline;
+    }
+.container{
+    text-align: center;
+    padding:150px;
+    height:110vh;
+    background-image: url("https://t3.ftcdn.net/jpg/02/96/74/64/360_F_296746476_F0wDElEXSb0Rd1tyDnsCBLVBHGAsJm3O.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+img{
+    height:180px;
+    width:220px
+    }
+h2{
+    padding:20px
+    }
+p{
+    padding: 10px;
+    }
+ul{
+    list-style: none;
+    padding:0
+    }
+li{
+    font-size: 18px;
+    }
+.doctor{
+    height: 140vh;
+    padding:70px;
+    background-image: url("https://t4.ftcdn.net/jpg/00/60/80/35/360_F_60803584_gHr9nLoMxIb2neC7w3kZVAdYIAmRkwFH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-container{
+    padding:20px
+}
+.card1{
+    display:flex
+}
+.card{
+    /* border:2px solid black; */
+    padding: 20px;
+    text-align: center;
+    width:15rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgb(118, 114, 114);
+    margin: 20px;
+}
+.card:hover{
+    background-color: aliceblue;
+}
+.services{
+    height:150vh;
+    background-image: url("https://thumbs.dreamstime.com/b/medical-services-background-abstract-framework-stethoscope-view-health-related-themes-concepts-stethoscope-427641014.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    padding:120px 40px;
+}
+.service-card{
+    background:whitesmoke;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin:20px;
+    width:38rem;
+    display:flex
+}
+img{
+    height:90px;
+    width:180px
+}
+.service-card h3{
+    color:#208865;
+    margin-bottom:10px;
+}
+
+.service-card p{
+    color:#555;
+    line-height:1.5;
+}
+.service-card:hover{
+    transform: translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.35);
+}
+
+.Book-Appointment{
+    padding:90px;
+    height: 100vh;
+    /* width:900px; */
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://thumbs.dreamstime.com/b/doctor-hospital-background-copy-space-doctor-hospital-background-copy-space-healthcare-medical-concept-108682352.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form h2{
+    color:black
+}
+form{
+    background-color: #55555588;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(118, 118, 130);
+    width:400px;
+    height:400px;
+}
+input,textarea,button{ 
+    padding:8px;
+    width:90%;
+    margin:10px
+}
+button{
+    background-color:rgba(0, 128, 0, 0.39);
+}
+.contact{
+    height:100vh;
+    background-image: url("https://cdn.prod.website-files.com/65cfc8641cecc667c97dc5dc/661d49dd4fa72f3790ba9177_contactus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:left;
+    padding:140px
+}
+
